@@ -1,10 +1,10 @@
 ==========
-dask-funk
+dask-funk-ng
 ==========
 *random access DAGs*
 
-.. image:: https://travis-ci.org/bmabey/dask-funk.svg?branch=master
-    :target: https://travis-ci.org/bmabey/dask-funk
+Based on the amazing [dask-funk](https://github.com/bmabey/dask-funk) library by Ben Mabey,
+updated work well with modern Python tooling.
 
 dask-funk provides an extension to dask_ that creates keyword named functions
 (hence the funk!) from dasks_ or function graphs represented as dictionaries.
