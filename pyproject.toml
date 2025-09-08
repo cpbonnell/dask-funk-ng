@@ -1,0 +1,32 @@
+[project]
+name = "dask-funk-ng"
+version = "0.10.0"
+description = "\"Plumatic 'graph' in python using dask!\""
+authors = [
+    {name="Christian Bonnell", email="christian.bonnell@gmail.com"},
+    {name="Travis Heppner", email="Travis.Roth.Heppner@gmail.com"}
+]
+license = {text = "MIT"}
+readme = "README.rst"
+requires-python = ">=3.10,<4"
+dependencies = [
+    "toolz (>=1.0.0,<2.0.0)",
+    "dask (>=2023.7.0)"
+]
+
+[tool.poetry]
+packages = [{include = "daskfunk"}]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.group.dev.dependencies]
+cytoolz = "^1.0.1"
+pytest = "^8.4.2"
+pytest-benchmark = "^5.1.0"
+pytest-cache = "^1.0"
+pytest-flake8 = "^1.3.0"
+pytest-isort = "^4.0.0"
+
