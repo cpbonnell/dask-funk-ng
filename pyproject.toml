@@ -3,7 +3,8 @@ name = "dask-funk-ng"
 version = "0.10.0"
 description = "\"Plumatic 'graph' in python using dask!\""
 authors = [
-    {name="Christian Bonnell", email="christian.bonnell@gmail.com"}
+    {name="Christian Bonnell", email="christian.bonnell@gmail.com"},
+    {name="Travis Heppner", email="Travis.Roth.Heppner@gmail.com"}
 ]
 license = {text = "MIT"}
 readme = "README.rst"
